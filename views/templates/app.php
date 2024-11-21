@@ -54,7 +54,6 @@
                 <?php if(auth()):?>
                     <div class="flex items-center">
                         <p class="text-gray-400 mr-3">Olá, <?=auth()->nome?></p>
-                        <img src="assets/Perfil.png" alt="Foto de Perfil" class="w-8 object-contain rounded">
                         <div class="mx-3 h-9 bg-gray-800 w-px"></div>
                         <a href="/logout" class="w-8 object-contain rounded bg-gray-800 flex items-center justify-center h-8">
                             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">

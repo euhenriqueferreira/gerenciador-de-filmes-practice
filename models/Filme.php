@@ -9,5 +9,7 @@
         public $nota;
         public $descricao;
         public $usuario_id;
+        public $nota_media;
+        public $nro_avaliacoes;
     }
 ?>

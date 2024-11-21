@@ -3,7 +3,7 @@
     if($_SERVER['REQUEST_METHOD'] == 'POST'){
         $nome = $_POST['nome'];
         $email = $_POST['email'];
-        $senha = $_POST['senha'];
+        $senha = $_POST['password'];
 
         $validacao = Validacao::validar([
             'nome'=>['required', 'min:3'],

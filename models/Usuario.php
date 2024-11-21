@@ -6,5 +6,6 @@
         public $nome;
         public $email;
         public $senha;
+        public $nro_avaliacoes;
     }
 ?>

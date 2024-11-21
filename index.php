@@ -1,6 +1,7 @@
 <?php
     require 'models/Filme.php';
     require 'models/Usuario.php';
+    require 'models/Avaliacao.php';
 
     session_start();
 
