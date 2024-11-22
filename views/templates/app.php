@@ -26,9 +26,9 @@
     <?php if($view !== 'login' && $view !== 'cadastro'): ?>
         <header class="mt-4 mx-auto max-w-screen-xl px-6 mb-16">
             <nav class="flex justify-between items-center">
-                <div>
+                <a href="/">
                     <img src="assets/Logo.png" alt="Logo" class="w-12 object-scale-down">
-                </div>
+                </a>
 
                 <ul class="flex items-center gap-6">
                     <li>

@@ -66,7 +66,7 @@
                 <div class="w-[264px] flex items-start gap-x-4 border-r-2 border-gray-800">
                     <div class="flex-1">
                         <p class="font-raj text-gray-300 text-base font-bold"><?=$avaliacao->nome?>
-                        <?php if($avaliacao->nome == auth()->nome):?>
+                        <?php  if(auth() && $avaliacao->nome == auth()->nome):?>
                             <span class="ml-2 text-xs font-bold text-gray-300 font-nunito bg-violet-600 rounded-full py-px px-2">você</span></p>
                         <?php endif;?>
 
